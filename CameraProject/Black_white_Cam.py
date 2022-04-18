@@ -4,6 +4,7 @@ import numpy as np
 cap = cv2.VideoCapture(0) #default cam.
 
 while True:
+
   retVal, Frame = cap.read()
 
   if retVal:
